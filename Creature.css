@@ -1,12 +1,28 @@
-html {
+html, body {
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
     position: relative;
-    left: 25vw;
     background-color: #d8ad94;
+}
+
+.container {
+    margin: auto;
+    position: relative;
+    left: 27vw;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 h1 {
     font-family: "Poppins", sans-serif;
     color: #2a2a2a;
+    margin-bottom: 7rem;
     left: 162px;
     top: -17px;
     position: relative;
